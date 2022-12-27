@@ -40,7 +40,7 @@ iwr https://raw.githubusercontent.com/quazi00/jumpscare/main/maxresdefault.png?d
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://https://github.com/quazi00/jumpscare/blob/main/we_found_you_long.wav?raw=true"
+$wav = "https://github.com/quazi00/jumpscare/blob/main/we_found_you_long.wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
